@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="uygulama.css">
+<title>Lomion Expanding Card</title>
+    </head>
+    <body>
+<div class="container">
+    <div class="panel active" style="background-image: url(img/Pawold.jpg);">
+        <h3>Pawold</h3>
+    </div>
+    <div class="panel" style="background-image: url(img/Ukthar.jpg);">
+        <h3>Ukthar</h3>
+    </div>
+    <div class="panel" style="background-image: url(img/Icdun.jpg);">
+        <h3>Icdun</h3>
+    </div>
+    <div class="panel" style="background-image: url(img/Guramar.jpg);">
+        <h3>Guramar</h3>
+    </div>
+    <div class="panel" style="background-image: url(img/Onwenel.jpg);">
+        <h3>Onwenel</h3>
+    </div>
+    <div class="panel" style="background-image: url(img/Arwick.jpg);">
+        <h3>Arwick</h3>
+    </div>
+    <div class="panel" style="background-image: url(img/Bagorn.jpg);">
+        <h3>Bagorn</h3>
+    </div>
+    <div class="panel" style="background-image: url(img/Dundabad.jpg);">
+        <h3>Dundabad</h3>
+    </div>
+    <div class="panel" style="background-image: url(img/Cheadolan.jpg);">
+        <h3>Cheadolan</h3>
+    </div>
+    <div class="panel" style="background-image: url(img/Tasdow.jpg);">
+        <h3>Tasdow</h3>
+    </div>
+    <div class="panel"  style="background-image: url(img/Megate.jpg);">
+        <h3>Megate</h3>
+    </div>
+    <div class="panel" style="background-image: url(img/2.jpg);">
+        <h3>Tower Of Rise</h3>
+    </div>
+    <div class="panel" style="background-image: url(img/Tirine.jpg);">
+        <h3>Tirine</h3>
+    </div>
+    <div class="panel" style="background-image: url(img/1.jpg);">
+        <h3>Golden City</h3>
+    </div>
+    <div class="panel" style="background-image: url(img/Quarminster.jpg);">
+        <h3>Quarminster</h3>
+    </div>
+</div>
+<script>
+const panels = document.querySelectorAll(".panel")
+
+
+    panels.forEach((panel) =>{
+        panel.addEventListener("click", ()=>{
+            removeActiveClasses()
+            panel.classList.add("active")
+            
+    
+        })
+    })
+    
+    function removeActiveClasses(){
+        panels.forEach((panel) =>{
+            panel.classList.remove("active")
+        })
+    }</script>
+    </body>
+</html>
