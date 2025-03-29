@@ -10,5 +10,5 @@ Bu proje, HTML, CSS ve JavaScript kullanılarak geliştirilmiş basit bir fotoğ
 ## 🔧 Kurulum  
 1. Projeyi klonlayın:  
    ```bash  
-   git clone https://github.com/Lomion9/fotograf-galerisi.git  
+   git clone https://github.com/Lomion9/Photo-Gallery.git
 
